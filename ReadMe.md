@@ -17,27 +17,27 @@
 $ bash run.sh
 ```
 
-![first_step](firststep.gif)
+![first_step](https://github.com/ytyaru/NovelWriter400.201706161317/blob/master/doc/img/firststep.gif?raw=true)
 
 [TAB], [Shift+Tab]キーでフォーカス遷移する。
 
-![startup](startup.png)
+![startup](https://github.com/ytyaru/NovelWriter400.201706161317/blob/master/doc/img/startup.png?raw=true)
 
 指定字数内のみ登録できる
 
-![write_100](write_100.png)
+![write_100](https://github.com/ytyaru/NovelWriter400.201706161317/blob/master/doc/img/write_100.png?raw=true)
 
 ボタンを押下して登録する。
 
-![write_100_regist.png](write_100_regist.png)
+![write_100_regist.png](https://github.com/ytyaru/NovelWriter400.201706161317/blob/master/doc/img/write_100_regist.png?raw=true)
 
 登録後、少しだけ表示されてフェードアウトする。
 
-![write_100_regist_fadeout](write_100_regist_fadeout.png)
+![write_100_regist_fadeout](https://github.com/ytyaru/NovelWriter400.201706161317/blob/master/doc/img/write_100_regist_fadeout.png?raw=true)
 
 `./contents/list.html`ファイルをブラウザで開くと一覧できる。新しい順。
 
-![list_html](list_html.png)
+![list_html](https://github.com/ytyaru/NovelWriter400.201706161317/blob/master/doc/img/list_html.png?raw=true)
 
 すでにlist.htmlファイルを開いており新たに登録したなら、F5キーでリロードすれば表示が更新される。
 
