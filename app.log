@@ -1,0 +1,30 @@
+Exception on / [GET]
+Traceback (most recent call last):
+  File "/media/mint/85f78c06-a96e-4020-ac36-9419b7e456db/mint/root/tools/pyenv/3.6.1/venv/webapp/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/media/mint/85f78c06-a96e-4020-ac36-9419b7e456db/mint/root/tools/pyenv/3.6.1/venv/webapp/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/media/mint/85f78c06-a96e-4020-ac36-9419b7e456db/mint/root/tools/pyenv/3.6.1/venv/webapp/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/media/mint/85f78c06-a96e-4020-ac36-9419b7e456db/mint/root/tools/pyenv/3.6.1/venv/webapp/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/media/mint/85f78c06-a96e-4020-ac36-9419b7e456db/mint/root/tools/pyenv/3.6.1/venv/webapp/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/media/mint/85f78c06-a96e-4020-ac36-9419b7e456db/mint/root/tools/pyenv/3.6.1/venv/webapp/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "app.py", line 32, in index
+    exp.Export()
+  File "/tmp/NovelWriter400.201706151724/src/export/SingleDirectoryExporter.py", line 21, in Export
+    list_file.Output(file_name, record)
+  File "/tmp/NovelWriter400.201706151724/src/export/OutputListFile.py", line 16, in Output
+    list_file_path = os.path.join(dir_path, list_file_name)
+NameError: name 'dir_path' is not defined
+regist()
+引数: {'Title': '3333333333333', 'Content': '33333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333'}
+戻り値: {'Title': '3333333333333', 'Content': '33333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333', 'Length': 92, 'Created': '2017-06-15 20:08:45'}
+regist()
+引数: {'Title': '4444444444', 'Content': '444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444'}
+戻り値: {'Title': '4444444444', 'Content': '444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444', 'Length': 93, 'Created': '2017-06-15 20:16:04'}
+regist()
+引数: {'Title': '555555555', 'Content': '5555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555'}
+戻り値: {'Title': '555555555', 'Content': '5555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555', 'Length': 91, 'Created': '2017-06-15 20:32:19'}

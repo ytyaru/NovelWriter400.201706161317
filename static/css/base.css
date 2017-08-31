@@ -1,0 +1,11 @@
+button:focus {
+    outline: 1px #ff0000 dashed;
+}
+#Details small {
+    margin-left: 20px;
+}
+#Archives pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow: auto;
+}
